@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/255117769428392190/e8f2ad18f5bf481aa76c897b320649a1/artifacts
+end_time: 1752530318602
+entry_point_name: ''
+experiment_id: '255117769428392190'
+lifecycle_stage: active
+run_id: e8f2ad18f5bf481aa76c897b320649a1
+run_name: silent-sponge-224
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752530313070
+status: 3
+tags: []
+user_id: gurme

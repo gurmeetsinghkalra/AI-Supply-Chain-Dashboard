@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/25702fb55b0040dda7714cc7ccc4d408/artifacts
+end_time: 1752528460039
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25702fb55b0040dda7714cc7ccc4d408
+run_name: mysterious-gull-119
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752528457181
+status: 3
+tags: []
+user_id: gurme

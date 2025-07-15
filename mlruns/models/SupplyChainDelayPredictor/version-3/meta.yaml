@@ -1,0 +1,18 @@
+aliases: []
+creation_timestamp: 1752531874568
+current_stage: Production
+deployment_job_state: null
+description: 'Model promoted with F1-score: 1.0000'
+last_updated_timestamp: 1752531874726
+metrics: null
+model_id: ''
+name: SupplyChainDelayPredictor
+params: null
+run_id: 78128b870fd34e6d938e275eb253f7e3
+run_link: ''
+source: runs:/78128b870fd34e6d938e275eb253f7e3/model
+status: READY
+status_message: null
+storage_location: runs:/78128b870fd34e6d938e275eb253f7e3/model
+user_id: null
+version: 3

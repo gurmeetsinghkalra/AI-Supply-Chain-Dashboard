@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/34946d2522004cacbeec0d848d3a0650/artifacts
+end_time: 1752529132128
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 34946d2522004cacbeec0d848d3a0650
+run_name: nosy-moth-966
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752529127089
+status: 4
+tags: []
+user_id: gurme

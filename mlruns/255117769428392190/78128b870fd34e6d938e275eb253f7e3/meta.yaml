@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/255117769428392190/78128b870fd34e6d938e275eb253f7e3/artifacts
+end_time: 1752531251478
+entry_point_name: ''
+experiment_id: '255117769428392190'
+lifecycle_stage: active
+run_id: 78128b870fd34e6d938e275eb253f7e3
+run_name: smiling-eel-753
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752531013245
+status: 3
+tags: []
+user_id: gurme

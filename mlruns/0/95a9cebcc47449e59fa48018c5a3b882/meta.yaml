@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/95a9cebcc47449e59fa48018c5a3b882/artifacts
+end_time: 1752528562299
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 95a9cebcc47449e59fa48018c5a3b882
+run_name: kindly-deer-528
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752528559360
+status: 3
+tags: []
+user_id: gurme

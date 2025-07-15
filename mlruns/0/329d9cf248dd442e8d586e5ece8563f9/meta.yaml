@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/329d9cf248dd442e8d586e5ece8563f9/artifacts
+end_time: 1752530292557
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 329d9cf248dd442e8d586e5ece8563f9
+run_name: orderly-loon-186
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752530287534
+status: 3
+tags: []
+user_id: gurme

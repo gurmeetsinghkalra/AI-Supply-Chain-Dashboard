@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/255117769428392190
+creation_time: 1752530312866
+experiment_id: '255117769428392190'
+last_update_time: 1752530312866
+lifecycle_stage: active
+name: supply_chain_delay_prediction

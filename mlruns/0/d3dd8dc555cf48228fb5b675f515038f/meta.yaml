@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/d3dd8dc555cf48228fb5b675f515038f/artifacts
+end_time: 1752528135958
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3dd8dc555cf48228fb5b675f515038f
+run_name: mercurial-pug-732
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752528132838
+status: 3
+tags: []
+user_id: gurme

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/255117769428392190/58e865adb187445fb96970740ee8446c/artifacts
+end_time: 1752530761174
+entry_point_name: ''
+experiment_id: '255117769428392190'
+lifecycle_stage: active
+run_id: 58e865adb187445fb96970740ee8446c
+run_name: sincere-foal-477
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752530595342
+status: 3
+tags: []
+user_id: gurme

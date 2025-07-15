@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/b174c65a2dce451299fbff0dc1b649bf/artifacts
+end_time: 1752528328032
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b174c65a2dce451299fbff0dc1b649bf
+run_name: enthused-stoat-25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752528324853
+status: 3
+tags: []
+user_id: gurme

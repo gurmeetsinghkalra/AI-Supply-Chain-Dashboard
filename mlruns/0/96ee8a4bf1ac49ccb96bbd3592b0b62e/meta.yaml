@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/96ee8a4bf1ac49ccb96bbd3592b0b62e/artifacts
+end_time: 1752527990944
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 96ee8a4bf1ac49ccb96bbd3592b0b62e
+run_name: exultant-tern-81
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752527985507
+status: 3
+tags: []
+user_id: gurme

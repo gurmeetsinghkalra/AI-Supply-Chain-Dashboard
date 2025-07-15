@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/54ef7880cac4414383bae0e1af3bee31/artifacts
+end_time: 1752528941980
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 54ef7880cac4414383bae0e1af3bee31
+run_name: upset-swan-912
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752528938970
+status: 3
+tags: []
+user_id: gurme

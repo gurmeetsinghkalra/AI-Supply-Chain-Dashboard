@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/790a357240364123b1b543841d2f7fec/artifacts
+end_time: 1752529304407
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 790a357240364123b1b543841d2f7fec
+run_name: brawny-croc-462
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752529299878
+status: 3
+tags: []
+user_id: gurme

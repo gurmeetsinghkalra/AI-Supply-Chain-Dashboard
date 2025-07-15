@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/255117769428392190/784cb6fad26c4287b9735923d14f67a9/artifacts
+end_time: 1752530563211
+entry_point_name: ''
+experiment_id: '255117769428392190'
+lifecycle_stage: active
+run_id: 784cb6fad26c4287b9735923d14f67a9
+run_name: righteous-seal-628
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752530558295
+status: 3
+tags: []
+user_id: gurme

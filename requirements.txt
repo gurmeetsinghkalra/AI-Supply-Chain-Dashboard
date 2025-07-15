@@ -1,0 +1,12 @@
+streamlit
+pandas
+mlflow
+pyyaml
+scikit-learn
+joblib
+xgboost
+category_encoders
+pydantic
+seaborn
+matplotlib
+pytest

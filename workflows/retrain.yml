@@ -1,0 +1,47 @@
+name: Model Training and Validation CI
+
+# This workflow triggers automatically on a push to the 'main' branch
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Allows manual triggering from the GitHub UI
+
+jobs:
+  train-and-validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run Automated Tests
+      run: pytest tests/
+
+    - name: Start MLflow Server
+      # In a real scenario, you'd connect to a persistent, remote MLflow server.
+      # Here, we run it as a background process for the job's duration.
+      run: |
+        pip install mlflow
+        mlflow server --host 127.0.0.1 --port 5000 &
+        sleep 5 # Give the server a moment to start
+
+    - name: Run Training Pipeline
+      run: python train_model.py
+      env:
+        MLFLOW_TRACKING_URI: http://127.0.0.1:5000
+
+    - name: Run Model Validation and Promotion
+      run: python validate_model.py
+      env:
+        MLFLOW_TRACKING_URI: http://127.0.0.1:5000
+

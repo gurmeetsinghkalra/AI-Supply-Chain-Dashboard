@@ -1,0 +1,48 @@
+# --- File Paths ---
+# Path to the single Excel file containing all data
+excel_file_path: "data/Supply chain logistics problem.xlsx"
+
+# Names of the sheets within the Excel file
+sheet_names:
+  orders: "OrderList"
+  freight: "FreightRates"
+  warehouse_costs: "WhCosts"
+  plant_ports: "PlantPorts"
+
+model_output_path: "delay_model.pkl"
+
+# --- Feature Engineering ---
+target_column: "Is Delayed"
+
+# Base features from the primary 'orders' table
+base_features:
+  - "Freight Cost (USD)"
+  - "Weight (Kilograms)"
+  - "Shipment Mode"
+  - "Country"
+  - "Unit quantity"
+
+# New features to be created after merging the tables
+newly_engineered_features:
+  - "cost_per_kg"
+  - "warehouse_cost_per_unit"
+  - "origin_port"
+  - "Scheduled Month"
+  - "Scheduled Day of Week"
+
+# --- Model & Training Settings ---
+test_size: 0.2
+random_state: 42
+
+# XGBoost Hyperparameter Search Space for RandomizedSearchCV
+param_distributions:
+  classifier__n_estimators: [100, 200, 300, 400]
+  classifier__max_depth: [3, 5, 7, 10]
+  classifier__learning_rate: [0.01, 0.05, 0.1, 0.2]
+  classifier__subsample: [0.7, 0.8, 0.9, 1.0]
+  classifier__colsample_bytree: [0.7, 0.8, 0.9, 1.0]
+
+# RandomizedSearchCV Settings
+n_iter: 25
+cv: 5
+scoring: "f1_weighted"

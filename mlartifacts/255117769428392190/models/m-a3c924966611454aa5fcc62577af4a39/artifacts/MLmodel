@@ -1,0 +1,41 @@
+artifact_path: mlflow-artifacts:/255117769428392190/models/m-a3c924966611454aa5fcc62577af4a39/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+is_signature_from_type_hint: false
+mlflow_version: 3.1.1
+model_id: m-a3c924966611454aa5fcc62577af4a39
+model_size_bytes: 401925
+model_uuid: m-a3c924966611454aa5fcc62577af4a39
+prompts: null
+run_id: 78128b870fd34e6d938e275eb253f7e3
+signature:
+  inputs: '[{"type": "long", "name": "tpt", "required": true}, {"type": "long", "name":
+    "ship_ahead_day_count", "required": true}, {"type": "long", "name": "unit_quantity",
+    "required": true}, {"type": "double", "name": "weight", "required": true}, {"type":
+    "string", "name": "origin_port", "required": true}, {"type": "string", "name":
+    "carrier", "required": true}, {"type": "string", "name": "service_level", "required":
+    true}, {"type": "string", "name": "customer", "required": true}, {"type": "string",
+    "name": "plant_code", "required": true}, {"type": "string", "name": "destination_port",
+    "required": true}, {"type": "long", "name": "delivery_delay", "required": true},
+    {"type": "double", "name": "cost_per_unit", "required": true}, {"type": "integer",
+    "name": "order_month", "required": true}, {"type": "integer", "name": "order_day_of_week",
+    "required": true}, {"type": "integer", "name": "order_quarter", "required": true},
+    {"type": "string", "name": "weight_category", "required": true}, {"type": "string",
+    "name": "tpt_category", "required": true}, {"type": "string", "name": "quantity_category",
+    "required": true}, {"type": "double", "name": "cost_per_kg", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-07-14 22:13:56.078584'

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/58199000527a49ae91030304a099d93f/artifacts
+end_time: 1752528577989
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 58199000527a49ae91030304a099d93f
+run_name: redolent-sheep-684
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752528574983
+status: 3
+tags: []
+user_id: gurme
