@@ -1,5 +1,7 @@
 streamlit
 pandas
+numpy
+plotly
 mlflow
 pyyaml
 scikit-learn
@@ -10,3 +12,4 @@ pydantic
 seaborn
 matplotlib
 pytest
+xlrd
