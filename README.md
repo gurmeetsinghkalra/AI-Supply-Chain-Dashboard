@@ -96,4 +96,6 @@ This starts the user-facing application. It will automatically connect to the ML
 
 streamlit run app.py
 
+https://gurmeetsinghkalra-ai-supply-chain-dashboard-app-q7zi6r.streamlit.app/
+
 You can now open your web browser and navigate to http://localhost:8501 to use the Command Center.
